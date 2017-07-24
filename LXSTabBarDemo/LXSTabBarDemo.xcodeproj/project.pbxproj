@@ -16,10 +16,10 @@
 		29BA297B1F25DACD000D854F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BA29791F25DACD000D854F /* LaunchScreen.storyboard */; };
 		29BA29861F25DACD000D854F /* LXSTabBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29851F25DACD000D854F /* LXSTabBarDemoTests.m */; };
 		29BA29911F25DACD000D854F /* LXSTabBarDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29901F25DACD000D854F /* LXSTabBarDemoUITests.m */; };
-		29BA29A51F25DAE6000D854F /* LXSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29A01F25DAE6000D854F /* LXSTabBar.m */; };
-		29BA29A61F25DAE6000D854F /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29A21F25DAE6000D854F /* UIBarButtonItem+Extension.m */; };
-		29BA29A71F25DAE6000D854F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29A41F25DAE6000D854F /* UIView+Extension.m */; };
 		29BA29AA1F25DB5F000D854F /* LXSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29A91F25DB5F000D854F /* LXSTabBarViewController.m */; };
+		29BA29B21F25DDB1000D854F /* LXSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29AD1F25DDB0000D854F /* LXSTabBar.m */; };
+		29BA29B31F25DDB1000D854F /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29AF1F25DDB0000D854F /* UIBarButtonItem+Extension.m */; };
+		29BA29B41F25DDB1000D854F /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BA29B11F25DDB1000D854F /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,14 +57,14 @@
 		29BA298C1F25DACD000D854F /* LXSTabBarDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXSTabBarDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BA29901F25DACD000D854F /* LXSTabBarDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSTabBarDemoUITests.m; sourceTree = "<group>"; };
 		29BA29921F25DACD000D854F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29BA299F1F25DAE6000D854F /* LXSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSTabBar.h; sourceTree = "<group>"; };
-		29BA29A01F25DAE6000D854F /* LXSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSTabBar.m; sourceTree = "<group>"; };
-		29BA29A11F25DAE6000D854F /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
-		29BA29A21F25DAE6000D854F /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
-		29BA29A31F25DAE6000D854F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		29BA29A41F25DAE6000D854F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		29BA29A81F25DB5F000D854F /* LXSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSTabBarViewController.h; sourceTree = "<group>"; };
 		29BA29A91F25DB5F000D854F /* LXSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSTabBarViewController.m; sourceTree = "<group>"; };
+		29BA29AC1F25DDB0000D854F /* LXSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSTabBar.h; sourceTree = "<group>"; };
+		29BA29AD1F25DDB0000D854F /* LXSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSTabBar.m; sourceTree = "<group>"; };
+		29BA29AE1F25DDB0000D854F /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		29BA29AF1F25DDB0000D854F /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		29BA29B01F25DDB1000D854F /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		29BA29B11F25DDB1000D854F /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		29BA29671F25DACD000D854F /* LXSTabBarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				29BA299E1F25DAE6000D854F /* LXSTabBarTool */,
+				29BA29AB1F25DDB0000D854F /* LXSTabBarTool */,
 				29BA296B1F25DACD000D854F /* AppDelegate.h */,
 				29BA296C1F25DACD000D854F /* AppDelegate.m */,
 				29BA296E1F25DACD000D854F /* ViewController.h */,
@@ -158,17 +158,18 @@
 			path = LXSTabBarDemoUITests;
 			sourceTree = "<group>";
 		};
-		29BA299E1F25DAE6000D854F /* LXSTabBarTool */ = {
+		29BA29AB1F25DDB0000D854F /* LXSTabBarTool */ = {
 			isa = PBXGroup;
 			children = (
-				29BA299F1F25DAE6000D854F /* LXSTabBar.h */,
-				29BA29A01F25DAE6000D854F /* LXSTabBar.m */,
-				29BA29A11F25DAE6000D854F /* UIBarButtonItem+Extension.h */,
-				29BA29A21F25DAE6000D854F /* UIBarButtonItem+Extension.m */,
-				29BA29A31F25DAE6000D854F /* UIView+Extension.h */,
-				29BA29A41F25DAE6000D854F /* UIView+Extension.m */,
+				29BA29AC1F25DDB0000D854F /* LXSTabBar.h */,
+				29BA29AD1F25DDB0000D854F /* LXSTabBar.m */,
+				29BA29AE1F25DDB0000D854F /* UIBarButtonItem+Extension.h */,
+				29BA29AF1F25DDB0000D854F /* UIBarButtonItem+Extension.m */,
+				29BA29B01F25DDB1000D854F /* UIView+Extension.h */,
+				29BA29B11F25DDB1000D854F /* UIView+Extension.m */,
 			);
-			path = LXSTabBarTool;
+			name = LXSTabBarTool;
+			path = ../../LXSTabBarTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,13 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BA29A61F25DAE6000D854F /* UIBarButtonItem+Extension.m in Sources */,
 				29BA29701F25DACD000D854F /* ViewController.m in Sources */,
+				29BA29B31F25DDB1000D854F /* UIBarButtonItem+Extension.m in Sources */,
+				29BA29B21F25DDB1000D854F /* LXSTabBar.m in Sources */,
 				29BA296D1F25DACD000D854F /* AppDelegate.m in Sources */,
-				29BA29A71F25DAE6000D854F /* UIView+Extension.m in Sources */,
-				29BA29A51F25DAE6000D854F /* LXSTabBar.m in Sources */,
 				29BA29761F25DACD000D854F /* LXSTabBarDemo.xcdatamodeld in Sources */,
 				29BA29AA1F25DB5F000D854F /* LXSTabBarViewController.m in Sources */,
+				29BA29B41F25DDB1000D854F /* UIView+Extension.m in Sources */,
 				29BA296A1F25DACD000D854F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +546,7 @@
 				29BA29971F25DACD000D854F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29BA29981F25DACD000D854F /* Build configuration list for PBXNativeTarget "LXSTabBarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +555,7 @@
 				29BA299A1F25DACD000D854F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29BA299B1F25DACD000D854F /* Build configuration list for PBXNativeTarget "LXSTabBarDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +564,7 @@
 				29BA299D1F25DACD000D854F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
